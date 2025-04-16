@@ -1,7 +1,5 @@
+import React from 'react';
+
 export default function ChatMockup() {
-  return (
-    <div style={{ textAlign: 'center', marginTop: '50px' }}>
-      <h2>Hello from ChatMockup 👋</h2>
-    </div>
-  );
+  return <h2 style={{ textAlign: 'center' }}>Chat UI test</h2>;
 }
